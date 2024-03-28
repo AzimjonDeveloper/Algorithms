@@ -49,6 +49,4 @@ public class QuickSort {
         }
         return c;
     }
-
-    // guspand
 }
