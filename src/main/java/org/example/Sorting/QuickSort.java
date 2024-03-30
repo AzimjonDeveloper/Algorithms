@@ -48,7 +48,5 @@ public class QuickSort {
             return a;
         }
         return c;
-
-        // GUSPANDMI TU IFLOS
     }
 }
