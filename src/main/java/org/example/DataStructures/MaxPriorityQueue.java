@@ -52,4 +52,6 @@ public class MaxPriorityQueue {
         heap[heapSize] = Integer.MIN_VALUE;
         increaseKey(heapSize, key);
     }
+
+    // Change from Intellij
 }
