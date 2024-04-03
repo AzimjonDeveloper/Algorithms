@@ -38,6 +38,4 @@ public class CountingSort {
 
         System.arraycopy(sorted, 0, array, 0, array.length);
     }
-
-
 }
