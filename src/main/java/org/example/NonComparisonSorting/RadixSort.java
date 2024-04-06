@@ -4,21 +4,20 @@ import java.util.Arrays;
 
 public class RadixSort {
     public static void main(String[] args) {
-        int[] arr = {170, 90, 802, 71, 2, 24, 45, 75, 66};
+        int[] arr = {170,546, 190, 802, 71, 2, 1900, 24, 45, 75, 66};
         int maxNum = 170;
 
-        radixSort(arr, maxNum);
         System.out.println(Arrays.toString(arr));
     }
 
     public static void radixSort(int[] arr, int maxNum) {
         int digitPosition = 1;
+
         while (maxNum / digitPosition > 0) {
             countingSort(arr, maxNum, digitPosition);
             digitPosition *= 10;
         }
     }
-
     public static void countingSort(int[] array, int maxNum, int digitPosition) {
         int[] sorted = new int[array.length];
 
@@ -44,3 +43,4 @@ public class RadixSort {
         System.arraycopy(sorted, 0, array, 0, array.length);
     }
 }
+
