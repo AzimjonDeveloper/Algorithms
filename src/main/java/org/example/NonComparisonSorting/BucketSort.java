@@ -10,7 +10,7 @@ public class BucketSort {
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
-
+ 
     public static void sort(double [] array) {
         int maxVal = Integer.MIN_VALUE;
         int minVal = Integer.MAX_VALUE;
